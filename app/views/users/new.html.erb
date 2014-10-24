@@ -1,0 +1,10 @@
+<h1>Form</h1>
+<%= form_for @user do |f| %>
+	<%= f.label :address %>
+	<%= f.text_field :address %><br/>
+	<%= f.label :title %>
+	<%= f.text_field :title %> <br/>
+	<%= f.label :description %>
+	<%= f.text_area :description %> <br/>
+	<%= f.submit %>
+<% end %>
